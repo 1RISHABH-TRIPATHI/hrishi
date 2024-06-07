@@ -1,0 +1,529 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 2px 10px 2px rgba(161, 157, 157, 0.682);
+    outline: 2px solid rgba(99, 99, 97, 0.6);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.nav2 {
+    display: none;
+}
+
+.logo {
+    padding-left: 1vmax;
+    align-content: center;
+
+}
+
+.imgLogo {
+
+    width: 50px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(99, 99, 97, 0.6);
+    border-radius: 20% 10%;
+    margin: 10px;
+}
+
+.navLink {
+    display: flex;
+    justify-content: flex-start;
+}
+.navLink li>a{
+    text-decoration: none;
+    color: black;
+}
+.navLink li {
+    box-sizing: border-box;
+    padding: 10px;
+    list-style: none;
+    font-size: large;
+    margin-right: 10px;
+   
+}
+
+/* main home pages  */
+.introBio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 60px auto;
+}
+
+.introImg img {
+    width: 35vmax;
+    margin: 10px;
+}
+
+.introData {
+    max-width: 50%;
+    text-align: justify;
+    font-size: x-large;
+    font-family: monospace;
+    padding: 5px;
+    margin: 10px;
+}
+
+.introData h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 2px rgb(68, 33, 33), 3px 3px 1px rgb(98, 91, 91);
+    margin-bottom: 3px;
+    color: rgb(61, 56, 42);
+}
+
+.IntrpStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.IntrpStart img {
+    width: 50%;
+}
+
+.IntrpStart h2 {
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+/* end home pages */
+/* start about pages */
+.about {
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.aboutInro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.aboutImg img {
+    width: 40vmax;
+}
+
+.aboutData {
+    width: 36vmax;
+    font-size: x-large;
+
+}
+
+.aboutData p {
+    margin: 10px auto;
+    font-family: monospace;
+    text-align: justify;
+}
+
+.aboutData h2 {
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.aboutbottom {
+    font-family: monospace;
+    font-size: large;
+}
+
+/* end about pages */
+/* start skills pagess */
+.skills h1 {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px 1px rgb(148, 114, 114);
+    font-weight: 400;
+}
+
+.professionalGroup {
+    margin: 10px;
+    font-size: large;
+}
+
+.professionalGroup h3 {
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: 500;
+
+}
+
+.ProfessSkills div>img {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(-8px -6px 3px rgb(218, 210, 210));
+}
+
+.ProfessSkills div>img:hover {
+    cursor: pointer;
+    filter: drop-shadow(-10px -8px 6px rgb(203, 198, 198));
+}
+
+.ProfessSkills div>p {
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4px auto;
+}
+
+.ProfessSkills div {
+    padding: 22px;
+    margin: 14px;
+    max-width: 142px;
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 2px 1px rgb(231, 226, 226);
+    border-radius: 17px;
+    height: 90px;
+}
+
+.ProfessSkills {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3% 6%;
+}
+
+/* personal */
+
+.personGroup {
+    margin: 10px;
+    font-size: large;
+}
+
+.personGroup h3 {
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.PersonSkills div>img {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(-8px -6px 3px rgb(218, 210, 210));
+}
+
+.PersonSkills div>img:hover {
+    cursor: pointer;
+    filter: drop-shadow(-10px -8px 6px rgb(203, 198, 198));
+}
+
+.PersonSkills div p {
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4px auto;
+}
+
+.PersonSkills div {
+    padding: 12px;
+    margin: 12px 8px;
+    max-width: 142px;
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 2px 1px rgb(231, 226, 226);
+    border-radius: 17px;
+    height: 90px;
+}
+
+.PersonSkills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3% 6%;
+}
+
+/* skills end */
+/* Contact start */
+#CONTACT h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 4%;
+    box-shadow: 2px 1px 10px rgb(220, 218, 223);
+}
+
+.Contact img {
+    max-width: 500px;
+}
+
+.container {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#Button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#Button:hover {
+    background-color: #45a049;
+}
+/* end contact page */
+/* start footer pages */
+
+.footer{
+    background-color: rgb(68, 60, 60);
+    color: white;
+    font-family: monospace;
+    font-size: large;
+}
+.FooterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 2px;
+
+}
+.FooterContainer h2{
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    padding: 1px;
+    margin: 2px auto;
+}
+.Co_About{
+    padding: 10px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Co_Links{
+    padding: 10px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Co_Links ul{
+    list-style: none;
+    
+}
+.Co_Links a{
+   color: white;
+   text-decoration: none;
+}
+.Co_Links li{
+    margin: 6px;
+}
+.Co_Links li:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.otherlink ul {
+    list-style: none;
+
+}
+.otherlink a{
+    color: white;
+    text-decoration: none;
+}
+.otherlink li:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.otherlink li{
+    margin: 6px;
+}
+.footer-bottom{
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 6px auto;
+}
+.footer-bottom p{
+    margin: 10px ;
+    padding: 10px;
+}
+/* end footer */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .introData {
+        min-width: 80%;
+    }
+
+    .IntrpStart h2 {
+        font-size: x-large;
+    }
+
+    .about {
+        margin-top: 10px;
+    }
+
+    .aboutData {
+        width: 500px;
+        padding: 20px;
+        margin: 10px;
+        font-size: large;
+    }
+
+    .aboutbottom {
+        font-size: medium;
+    }
+
+    .aboutData h2 {
+        font-size: large;
+    }
+
+    .ProfessSkills div {
+        padding: 6px;
+        margin: 6px;
+        width: 100px;
+    }
+    .PersonSkills div{
+        padding: 9px;
+        margin: 10px 2px;
+    }
+    .hidePara {
+        display: inline;
+    }
+    .Contact img {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1107px) {
+    .hidePara {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        display: none;
+    }
+
+    .header {
+        border: none;
+
+    }
+
+    .nav2 {
+        display: block;
+        padding: 10px;
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .threeDot {
+        border: none;
+        background-color: white;
+        font-size: x-large;
+    }
+
+    .threeclose {
+        border: none;
+        background-color: white;
+        font-size: x-large;
+        display: none;
+    }
+
+    .navLink2 li {
+        display: flex;
+        flex-flow: column;
+        font-size: larger;
+        padding: 10px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navLink2 li>a{
+        text-decoration: none;
+        color: black;
+        font-family: monospace;
+    }
+    #topHOme {
+        border-top: 1px solid gray;
+    }
+
+    li:hover {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration-line: underline;
+
+    }
+
+    .hide {
+        display: none;
+    }
+}
